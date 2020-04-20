@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "65756141593",
+    "firebase_url": "https://diyp-f4d51.firebaseio.com",
+    "project_id": "diyp-f4d51",
+    "storage_bucket": "diyp-f4d51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65756141593:android:189566d2e8bb521c5f3288",
+        "android_client_info": {
+          "package_name": "ie.wit.diyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65756141593-9c0jevjsn3ugvtuf5s5p0l1qgtvcmdhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK42DcTiTrNUHHQybaTVxyRUj6bf88_FA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65756141593-9c0jevjsn3ugvtuf5s5p0l1qgtvcmdhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
