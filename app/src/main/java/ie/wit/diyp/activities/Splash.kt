@@ -7,9 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import ie.wit.diyp.R
 
 
-
 class Splash : AppCompatActivity() {
-    lateinit var app: Table
 
     private val SPLASH_TIME_OUT:Long = 3000
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +17,7 @@ class Splash : AppCompatActivity() {
 
         Handler().postDelayed({
 
-            startActivity(Intent(this,Table::class.java))
+            startActivity(Intent(this, Login::class.java))
 
             finish()
         }, SPLASH_TIME_OUT)

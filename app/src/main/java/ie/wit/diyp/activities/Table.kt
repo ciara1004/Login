@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.auth.FirebaseAuth
 import ie.wit.diyp.R
 import ie.wit.diyp.main.DIYPApp
 import kotlinx.android.synthetic.main.content_default_barfood.*
@@ -51,6 +52,8 @@ class Table : AppCompatActivity() {
             val intent = Intent(this, Barfood::class.java)
             startActivity(intent)
         }
+
+        FirebaseAuth.getInstance().signOut()
     }
 
 
